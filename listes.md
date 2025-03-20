@@ -181,6 +181,17 @@ for i in range(n):
 
 Dans certains cas, enfin, on a besoin de manipuler simultanément les indices d'une liste et les éléments associés.
 Cela se fait à l'aide de la fonction `enumerate` :
+l =[5,12,48,-2,0,-48,5,12]
+def posmax(l):
+    m, k=l[0],0
+    for i, e in enumerate(l):
+        if e > m:
+            m =e
+            k=i
+    return m,k
+   
+   
+print("Max est ", posmax(l))
 
 ```{code-cell}
 liste = [1, 5, 7]
