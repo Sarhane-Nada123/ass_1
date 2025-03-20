@@ -4,7 +4,7 @@ jupytext:
   formats: md:myst
   text_representation:
     extension: .md
-    format_name: myst
+    format_name: 
     format_version: '0.8'
     jupytext_version: 1.5.0
 kernelspec:
@@ -14,7 +14,7 @@ kernelspec:
 ---
 
 # Les listes
-
+Sarhane Nada 
 ```{admonition} Définition
 
 Une liste est une collection ordonnée de valeurs.
